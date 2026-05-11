@@ -25,7 +25,7 @@ public abstract class Produk {
     }
 
     public double hitungTotaHarga(int jumlah){
-        return harga;
+        return jumlah * harga;
 
     }
 

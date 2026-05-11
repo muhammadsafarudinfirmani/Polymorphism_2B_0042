@@ -7,7 +7,7 @@ public class Makanan extends Produk {
     }
 
     @Override
-    public double hitungTotalHarga(int jumlah){
+    public double hitungTotalBayar(int jumlah){
         return hitungTotaHarga(jumlah)*0.5;
     }
 

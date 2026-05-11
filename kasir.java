@@ -9,7 +9,7 @@ public class kasir {
         if (jumlah > p.getStok()) {
             System.out.println("Stok tidak cukup" );
         }else {
-            hargaAkhir = p.hitungTotalHarga(jumlah);
+            hargaAkhir = p.hitungTotalBayar(jumlah);
             p.setStok(jumlah);
         }
 
